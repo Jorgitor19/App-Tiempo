@@ -13,7 +13,7 @@ conjunto de definiciones y protocolos que se utiliza para desarrollar e integrar
 siguiendo unas determinadas reglas.
 
 
-![Infografía del funcionamiento de una API](https://github.com/eSee3/App-Tiempo/blob/main/Tiempo/assets/API.PNG)
+![Infografía del funcionamiento de una API](https://github.com/eSee3/App-Tiempo/blob/main/Tiempo/assets/banner.jpg)
 > Pablo Nevado | eSee3
 
 ## ¿Cómo Funciona una API?
