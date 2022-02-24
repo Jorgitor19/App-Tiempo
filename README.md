@@ -11,6 +11,7 @@ API o *Application Programming Interfaces* es una abreviatura de Application Pro
 conjunto de definiciones y protocolos que se utiliza para desarrollar e integrar el software de las aplicaciones y que permite comunicar aplicaciones de software entre ellas 
 siguiendo unas determinadas reglas.
 
+
 ![Infografía del funcionamiento de una API](https://github.com/eSee3/App-Tiempo/blob/main/Tiempo/assets/API.PNG)
 > Pablo Nevado | eSee3
 
@@ -22,5 +23,41 @@ conocer los requisitos de acceso del recurso que desees utilizar.
 Casi todas las plataformas de desarrollo (Java, Node.js, PHP, JavaScript...) ofrecen una manera sencilla de utilizar las APIs Web, y también una forma, más o menos compleja según
 el caso, de crear APIs para permitir que otros se comuniquen con ellas.
 
+```JavaScript
+		
+		//  document.write('');
+        window.onload = function(){
+        document.querySelector("#city").addEventListener("change", consulta);
+        }
+
+    function consulta(){
+        const apiKey = "e9cc819d23fb5a103ef0b878e7dd70ea";
+        let url ="http://api.openweathermap.org/data/2.5/weather?";
+        let ciudad = document.querySelector("#city").value;
+        let recurso = url + "q=" + ciudad + "&APPID=" + apiKey + "&units=metric";
+
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function(){
+            if (this.readyState == 4 && this.status == 200){
+                let tiempo = JSON.parse(xhttp.responseText);
+
+                document.getElementById("salida").innerHTML = 
+                document.getElementById("salida").innerHTML = 
+                    "<div class='infoName'> <h2>"
+                    + tiempo.name 
+                    + "</h2></div>"
+                    + "<div class='infoData'> <div class='infoCont'><h3>"+ tiempo.main.temp + "  Cº </h3>"
+                    + "<img src='http://openweathermap.org/img/wn/"  + tiempo.weather[0].icon  + "@2x.png' ></div>" 
+                    + "<div class='infoCont'> Viento: " + tiempo.wind.speed +"   km/h <br>"
+                    + "Humedad: " + tiempo.main.humidity  +"   %<br> <br> "
+                    +  "<div class='infoDetail'>  "+tiempo.weather[0].description + "</div></div> </div>";
+            }
+        }
+        xhttp.open("GET", recurso, true);
+        xhttp.send();
+    }
+    document.write('</div>');
+		
+		```
 
 
