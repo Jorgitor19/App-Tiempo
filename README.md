@@ -1,2 +1,4 @@
 # App-Tiempo
-Apicación que muestra el tiempo de su ciudad
+### Aplicación que muestra el tiempo de su ciudad
+
+API - *Application Programming Interfaces*
