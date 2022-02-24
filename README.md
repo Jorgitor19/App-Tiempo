@@ -21,10 +21,9 @@ aplicación o una plataforma en la cual agruparse. Las APIs deben integrarse a u
 Para usar una API, lo más probable es que necesites de una clave de API. Para saber si la API que deseas usar requiere este tipo de clave, puedes consultar la documentación para
 conocer los requisitos de acceso del recurso que desees utilizar.
 Casi todas las plataformas de desarrollo (Java, Node.js, PHP, JavaScript...) ofrecen una manera sencilla de utilizar las APIs Web, y también una forma, más o menos compleja según el caso, de crear APIs para permitir que otros se comuniquen con ellas.
+Fuente de origen de la API: *https://openweathermap.org/api
 
-La Aplicación que usé para la API es https://openweathermap.org/api
-
-Mi código de JavaScript va embebido en el propio código HTML porque la informacón que nos muestre la API la pinto directamente en el resultado del HTML.
+Mi código de JavaScript va embebido en el propio código HTML porque la información que nos muestre la API la pinto directamente en el resultado del HTML.
 
 ```JavaScript
 
