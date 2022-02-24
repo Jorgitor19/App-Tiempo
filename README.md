@@ -11,7 +11,7 @@ API o *Application Programming Interfaces* es una abreviatura de Application Pro
 conjunto de definiciones y protocolos que se utiliza para desarrollar e integrar el software de las aplicaciones y que permite comunicar aplicaciones de software entre ellas 
 siguiendo unas determinadas reglas.
 
-## ¿¿Cómo Funciona una API?
+## ¿Cómo Funciona una API?
 Para entender el funcionamiento de una API hay que entender que no es un software que funciona independientemente, sino que es una extensión, que requiere de un sistema, una
 aplicación o una plataforma en la cual agruparse. Las APIs deben integrarse a un sistema para funcionar.
 Para usar una API, lo más probable es que necesites de una clave de API. Para saber si la API que deseas usar requiere este tipo de clave, puedes consultar la documentación para
