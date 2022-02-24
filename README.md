@@ -11,6 +11,8 @@ API o *Application Programming Interfaces* es una abreviatura de Application Pro
 conjunto de definiciones y protocolos que se utiliza para desarrollar e integrar el software de las aplicaciones y que permite comunicar aplicaciones de software entre ellas 
 siguiendo unas determinadas reglas.
 
+(https://github.com/eSee3/App-Tiempo/blob/main/Tiempo/assets/API.PNG)
+> Pablo Nevado | eSee3
 
 ## ¿Cómo Funciona una API?
 Para entender el funcionamiento de una API hay que entender que no es un software que funciona independientemente, sino que es una extensión, que requiere de un sistema, una
