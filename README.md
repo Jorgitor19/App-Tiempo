@@ -1,6 +1,6 @@
 # App-Tiempo
 #### En primer lugar hablaré de que trata mi proyecto, seguidamente explicaré lo que es una API y un pequeño resumen de como funciona.
-![Banner del tiempo](https://github.com/eSee3/App-Tiempo/blob/main/Tiempo/assets/tiempo.png)
+![Banner del tiempo](https://github.com/eSee3/App-Tiempo/blob/main/Tiempo/assets/banner.jpg)
 
 ## ¿De que trata mi proyecto?
 El proyecto que he llevado a cabo muestra el tiempo en grados centígrados de la ciudad que quiera, una icono informativo de la situación meteorlógica que hace en el momento, el 
@@ -13,7 +13,7 @@ conjunto de definiciones y protocolos que se utiliza para desarrollar e integrar
 siguiendo unas determinadas reglas.
 
 
-![Infografía del funcionamiento de una API](https://github.com/eSee3/App-Tiempo/blob/main/Tiempo/assets/banner.jpg)
+![Infografía del funcionamiento de una API](https://github.com/eSee3/App-Tiempo/blob/main/Tiempo/assets/API.PNG)
 > Pablo Nevado | eSee3
 
 ## ¿Cómo Funciona una API?
