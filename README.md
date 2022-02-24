@@ -63,6 +63,6 @@ Mi código de JavaScript va embebido en el propio código HTML porque la informa
     }
     document.write('</div>');
 		
-		```
+
 
 
