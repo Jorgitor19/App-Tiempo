@@ -37,7 +37,7 @@ Mi código de JavaScript va embebido en el propio código HTML porque la informa
     	function consulta(){
 		// Nuestra API key
         	const apiKey = "e9cc819d23fb5a103ef0b878e7dd70ea";
-		//Url en el que indicaremos la ciudad que nostros queramos en el input de ciudad
+		//en la URL indicamos la ciudad, que nosotros despues almacenaremos en un input
         	let url ="http://api.openweathermap.org/data/2.5/weather?";
         	let ciudad = document.querySelector("#city").value;
         	let recurso = url + "q=" + ciudad + "&APPID=" + apiKey + "&units=metric";
