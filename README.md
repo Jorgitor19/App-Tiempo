@@ -71,7 +71,7 @@ Mi código de JavaScript va embebido en el propio código HTML porque la informa
 
 - https://openweathermap.org/api
 - https://anyconnector.com/es/api-integration/what-are-apis-used-for.html
-- https://www.redhat.com/es/topics/api/what-are-application-programming-interfaces#:~:text=Una%20API%20o%20interfaz%20de,el%20software%20de%20las%20aplicaciones.
+- https://www.redhat.com/es/topics/api/
 - https://www.campusmvp.es/recursos/post/que-es-una-api-tipos-usos-y-funcionamiento.aspx
 		
 
