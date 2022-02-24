@@ -28,6 +28,8 @@ Mi código de JavaScript va embebido en el propio código HTML porque la informa
 
 ```JavaScript
 
+//Código JS
+
 	document.write('');
         window.onload = function(){
         document.querySelector("#city").addEventListener("change", consulta);
@@ -63,6 +65,4 @@ Mi código de JavaScript va embebido en el propio código HTML porque la informa
     }
     document.write('</div>');
 		
-
-
 
