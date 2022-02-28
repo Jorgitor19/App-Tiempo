@@ -3,7 +3,7 @@
 ![Banner del tiempo](https://github.com/eSee3/App-Tiempo/blob/main/Tiempo/assets/banner.PNG)
 
 ## ¿De que trata mi proyecto?
-El proyecto que he llevado a cabo muestra el tiempo en grados centígrados de la ciudad que quiera, una icono informativo de la situación meteorlógica que hace en el momento, el 
+El proyecto que he llevado a cabo muestra el tiempo en grados centígrados de la ciudad que quiera, un icono informativo de la situación meteorlógica que hace en el momento, el 
 viento en km/h, un porcentaje de la probabilidad de precipitaciones y el nombre de la condición atmosférica.
 
 
